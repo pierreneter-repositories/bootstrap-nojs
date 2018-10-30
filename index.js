@@ -19,10 +19,14 @@ const packageJson = require('./package.json');
     process.exit(1);
   }
   const currentVersion = tagName.substr(1);
+  console.log(`Current bootstrap version: ${currentVersion}`);
 
   const packageOnNPM = await r2('https://registry.npmjs.org/bootstrap-nojs').json;
 
-  if (currentVersion === packageOnNPM['dist-tags'].latest) {
+  const currentNoJSVersion = packageOnNPM['dist-tags'].latest;
+  console.log(`Current bootstrap-nojs version: ${currentNoJSVersion}`);
+
+  if (currentVersion === currentNoJSVersion) {
     console.error('This version is published');
     process.exit(0);
   }
