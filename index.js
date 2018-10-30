@@ -24,7 +24,7 @@ const packageJson = require('./package.json');
 
   if (currentVersion === packageOnNPM['dist-tags'].latest) {
     console.error('This version is published');
-    process.exit(1);
+    process.exit(0);
   }
 
   if (fs.existsSync('./bootstrap')) {
