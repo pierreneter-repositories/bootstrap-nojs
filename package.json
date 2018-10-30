@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-nojs",
+  "version": "0.0.0",
+  "repository": "git@github.com:pierreneter-repositories/bootstrap-nojs.git",
+  "author": "pierreneter <pierreneter@gmail.com>",
+  "homepage": "https://github.com/pierreneter-repositories/bootstrap-nojs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pierreneter-repositories/bootstrap-nojs/issues",
+    "email": "pierreneter@gmail.com"
+  },
+  "devDependencies": {
+    "copy-dir": "^0.4.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "nodegit": "^0.23.0",
+    "npm": "^6.4.1",
+    "r2": "^2.0.1",
+    "request": "^2.34",
+    "trash": "^4.3.0"
+  }
+}
