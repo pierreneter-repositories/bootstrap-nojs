@@ -3,7 +3,7 @@
 > This's [bootstrap](https://github.com/twbs/bootstrap), but without js
 
 [![npm](https://img.shields.io/npm/v/bootstrap-nojs.svg)](https://www.npmjs.com/package/bootstrap-nojs)
-![Travis (.org)](https://img.shields.io/travis/pierreneter-repositories/bootstrap-nojs.svg)
+![Travis (.org)](https://img.shields.io/travis/sulfureux/bootstrap-nojs.svg)
 ![NpmLicense](https://img.shields.io/npm/l/bootstrap-nojs.svg?registry_uri=https%3A%2F%2Fregistry.npmjs.com)
 
 ## Install
